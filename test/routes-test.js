@@ -1,6 +1,5 @@
-var routes = require('../routes');
-
-require('should');
+var routes = require('../routes'),
+    should = require('should');
 
 describe('routes', function () {
     var req, res;
